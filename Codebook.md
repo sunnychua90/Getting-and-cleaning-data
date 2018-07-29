@@ -1,6 +1,6 @@
 # Codebook
 
-First column
+SubjectID.Activity
 * Subject ID and activity performed
 
 tBodyAcc-mean()-X

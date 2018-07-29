@@ -81,6 +81,7 @@ s<-split(finaldata2,list(finaldata2$`Subject ID`,finaldata2$`Activity Labels`))
 ## lapply to get means
 getmeans<- lapply(s,function(x) colMeans(x[,c(3:68)]))
 tidydata<-as.data.frame(do.call("rbind", getmeans))
-write.csv(tidydata,paste0(getwd(),"/tidydata.csv"))
-print(paste0("COMPLETED: Data cleansed and tidy data is saved in ",getwd(),"/as tidydata.csv!"))
+tidydata1<-cbind("SubjectID.Activity"=rownames(tidydata),tidydata)
+write.table(tidydata1,paste0(getwd(),"/tidydata.txt"),row.name=FALSE)
+print(paste0("COMPLETED: Data cleansed and tidy data is saved in ",getwd(),"/ as tidydata.txt!"))
 }
