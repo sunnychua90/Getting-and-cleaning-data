@@ -153,35 +153,51 @@ fBodyAccJerk-mean()-Z
 fBodyAccJerk-std()-X
 * Average standard deviation of the body linear acceleration and angular velocity derived in time captured by the accelerometer to obtain Jerk signals, after undergoing Fast Fourier Transform (FFT) in the X direction by subject ID and by 
 activity
+
 fBodyAccJerk-std()-Y
 * Average standard deviation of the body linear acceleration and angular velocity derived in time captured by the accelerometer to obtain Jerk signals, after undergoing Fast Fourier Transform (FFT) in the Y direction by subject ID and by activity
+
 fBodyAccJerk-std()-Z
 * Average standard deviation of the body linear acceleration and angular velocity derived in time captured by the accelerometer to obtain Jerk signals, after undergoing Fast Fourier Transform (FFT) in the Z direction by subject ID and by activity
+
 fBodyGyro-mean()-X
 * Average mean of the body acceleration signal in the X direction captured by the gyroscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity performed
+
 fBodyGyro-mean()-Y
 * Average mean of the body acceleration signal in the Y direction captured by the gyroscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity performed
+
 fBodyGyro-mean()-Z
 * Average mean of the body acceleration signal in the Z direction captured by the gyroscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity performed
+
 fBodyGyro-std()-X
 * Average standard deviation of the body acceleration signal in the X direction captured by the gyroscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity performed
+
 fBodyGyro-std()-Y
 * Average standard deviation of the body acceleration signal in the Y direction captured by the gyroscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity performed
+
 fBodyGyro-std()-Z
 * Average standard deviation of the body acceleration signal in the Z direction captured by the gyroscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity performed
+
 fBodyAccMag-mean()
 * Average mean of the magnitude of the body acceleration signals captured by the accelerometer, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity
+
 fBodyAccMag-std()
 * Average standard deviation of the magnitude of the body acceleration signals captured by the accelerometer, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity
+
 fBodyBodyAccJerkMag-mean()
 * Average mean of the Jerk magnitude of the body acceleration signals captured by the accelerometer, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity
+
 fBodyBodyAccJerkMag-std()
 * Average standard deviation of the Jerk magnitude of the body acceleration signals captured by the accelerometer, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity
+
 fBodyBodyGyroMag-mean()
 * Average mean of the magnitude of the body acceleration signals captured by the gyroscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity
+
 fBodyBodyGyroMag-std()
 * Average standard deviation of the magnitude of the body acceleration signals captured by the gyroscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity
+
 fBodyBodyGyroJerkMag-mean()
 * Average mean of the Jerk magnitude of the body acceleration signals captured by the gyropscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity
+
 fBodyBodyGyroJerkMag-std()
 * Average standard deviation of the Jerk magnitude of the body acceleration signals captured by the gyropscope, after undergoing Fast Fourier Transform (FFT) by subject ID and by activity
