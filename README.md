@@ -3,11 +3,11 @@ Repo for Peer Graded Assignment: Getting and cleaning data
 
 ## Section 1: This readme outlines specific instructions on how to run the "run_analysis.R" function. Specific details on how the function works are listed in the second section.
 
-*To run the function "run_analysis.R", put the "run_analysis.R" file in the same working directory.
-*Download the UCI HAR Dataset and put the folder into the same working directory
-*Run the function by typing run_analysis("UCI HAR Dataset") in R. If the name of the folder is not UCI HAR Dataset, change the folder name accordingly.
-*Once the analysis is completed, a message will be printed on R saying that analysis has been completed and a csv copy of the tidy data is saved in the working directory.
-*Data is sorted by subject id and the activity label (e.g. 2.WALKING represents walking activity for subject ID 2)
+* To run the function "run_analysis.R", put the "run_analysis.R" file in the same working directory.
+* Download the UCI HAR Dataset and put the folder into the same working directory
+* Run the function by typing run_analysis("UCI HAR Dataset") in R. If the name of the folder is not UCI HAR Dataset, change the folder name accordingly.
+* Once the analysis is completed, a message will be printed on R saying that analysis has been completed and a csv copy of the tidy data is saved in the working directory.
+* Data is sorted by subject id and the activity label (e.g. 2.WALKING represents walking activity for subject ID 2)
 
 ## Section 2: Details of analysis
 The analysis runs on 4 steps:
