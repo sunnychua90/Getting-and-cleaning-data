@@ -13,19 +13,19 @@ Repo for Peer Graded Assignment: Getting and cleaning data
 The analysis runs on 4 steps:
 
 1. Merging dataset for training:
-*Training set is first cleaned up by performing an rbind between X_train.txt and a transpose of features.txt to give column headers
-*We then perform cbind with both y_train.txt and subject_train.txt to first derive a merged training data set
+* Training set is first cleaned up by performing an rbind between X_train.txt and a transpose of features.txt to give column headers
+* We then perform cbind with both y_train.txt and subject_train.txt to first derive a merged training data set
 
 2. Merging dataset for test:
-*The same steps as per the above are performed to obtain a merged test data set
+* The same steps as per the above are performed to obtain a merged test data set
 
 3. Merging both dataset for test and training:
-*rbind is performed to merge the dataset for test and training.
-*We then use the grepl function to extract only Subject ID, Activity Labels and columns with mean() and standard deviation()
-*Activity labels are replaced by descriptive activity names
+* rbind is performed to merge the dataset for test and training.
+* We then use the grepl function to extract only Subject ID, Activity Labels and columns with mean() and standard deviation()
+* Activity labels are replaced by descriptive activity names
 
 4. Cleaning data
-*Split function is used to split data by subject ID and activity
-*Use lapply to obtain means
-*Recombine the split data into data frames by using do.call command
-*Finally, use write.table function to export the clean dataset
+* Split function is used to split data by subject ID and activity
+* Use lapply to obtain means
+* Recombine the split data into data frames by using do.call command
+* Finally, use write.table function to export the clean dataset
